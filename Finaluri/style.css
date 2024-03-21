@@ -1,0 +1,982 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  font-family: Be Vietnam Pro;
+}
+
+header {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.head {
+  height: 55px;
+
+  background-color: rgba(255, 149, 0, 1);
+  margin: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 83px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header-spans {
+  margin-left: -70px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.Home-button {
+  background-color: rgb(227, 225, 225);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.nav-1 {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  border: none;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.button-signup {
+  border: none;
+  width: 117px;
+  height: 55px;
+  padding: 14px, 34px, 14px, 34px;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.header-1-button-login {
+  border: none;
+
+  width: 117px;
+  height: 55px;
+  padding: 14px, 34px, 14px, 34px;
+  border-radius: 8px;
+  gap: 8px;
+
+  background: rgba(255, 149, 0, 1);
+
+  color: rgba(255, 255, 255, 1);
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.unlock {
+  color: #ff9500;
+  margin-left: 20px;
+}
+.main-head {
+  margin-top: -60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-img-h1 {
+  margin-top: 200px;
+
+  display: flex;
+}
+
+.line {
+  margin-top: -80px;
+}
+
+.main-h2-p {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  margin-left: 60px;
+}
+
+.explore-curses {
+  width: 195px;
+  height: 63px;
+  padding: 18px, 24px, 18px, 24px;
+  border-radius: 8px;
+  gap: 8px;
+  margin-left: 80px;
+
+  background: rgba(255, 149, 0, 1);
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.view-pricing {
+  width: 159px;
+  height: 63px;
+  padding: 18px, 24px, 18px, 24px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  background: rgba(255, 255, 255, 1);
+
+  border: 1px solid rgba(241, 241, 243, 1);
+}
+
+.svg-7 {
+  border-radius: 12px;
+  border: 1px;
+  border: 1px solid rgba(241, 241, 243, 1);
+  margin-top: 140px;
+}
+.picture-1 {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+
+  padding: 0;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px grey;
+}
+.zapier {
+  border-right: solid 1px;
+  padding-right: 50px;
+  border-color: grey;
+}
+.spotify {
+  border-right: solid 1px;
+  border-color: gray;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.zoom {
+  border-right: solid 1px;
+  padding-right: 100px;
+  padding-left: 20px;
+  border-color: grey;
+}
+.amazon {
+  border-right: solid 1px;
+  border-color: gray;
+}
+.adobe {
+  border-right: solid 1px;
+  border-color: gray;
+}
+.notion {
+  border-right: solid 1px;
+  border-color: gray;
+}
+
+.svg-section-1 {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+.section-3-head {
+  display: flex;
+
+  justify-content: space-between;
+  margin-left: 80px;
+}
+.button-1 {
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-right: 150px;
+}
+.benefits {
+  margin-left: 80px;
+}
+
+.section-3-p {
+  width: 850px;
+}
+
+.section-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-6-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-6-p {
+  width: 850px;
+}
+
+.number-1 {
+  padding: 50px;
+  background-color: #dbdbdb;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  grid-area: number-1;
+}
+.number-2 {
+  padding: 50px;
+  background-color: #dbdbdb;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  grid-area: number-2;
+}
+.number-3 {
+  padding: 50px;
+  background-color: #dbdbdb;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  grid-area: number-3;
+}
+.number-4 {
+  padding: 50px;
+  background-color: #dbdbdb;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  grid-area: number-4;
+}
+.number-5 {
+  padding: 50px;
+  background-color: #dbdbdb;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  grid-area: number-5;
+}
+.number-6 {
+  padding: 50px;
+  background-color: #dbdbdb;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  grid-area: number-6;
+}
+
+.page-Wrapper {
+  display: grid;
+  grid-template-areas:
+    "number-1 number-2 number-3"
+    "number-4 number-5 number-6";
+  margin-top: 60px;
+
+  row-gap: 5px;
+  column-gap: 5px;
+  margin-left: 120px;
+
+  margin-right: 120px;
+  max-width: 100%;
+  padding: 0;
+}
+
+.ourcourses {
+  margin-top: 60px;
+  margin-left: 120px;
+  size: 48px;
+}
+.section-4-head {
+  display: flex;
+
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 150px;
+}
+.text-section4 {
+  width: 1000px;
+}
+.button-section4 {
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.ourcourses-1 {
+  width: 660px;
+  height: 500px;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-area: ourcourses-1;
+}
+.ourcourses-2 {
+  width: 660.5px;
+  height: 500px;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-area: ourcourses-2;
+}
+
+.ourcourses-3 {
+  width: 660.5px;
+  height: 500px;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-area: ourcourses-3;
+}
+.ourcourses-4 {
+  width: 660.5px;
+  height: 500px;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-area: ourcourses-4;
+}
+
+.ourcourses-5 {
+  width: 660.5px;
+  height: 500px;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-area: ourcourses-5;
+}
+
+.ourcourses-6 {
+  width: 660.5px;
+  height: 500px;
+  border-radius: 12px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  grid-area: ourcourses-6;
+}
+
+.page-wrapper-2 {
+  display: grid;
+  grid-template-areas:
+    "ourcourses-1 ourcourses-2"
+    "ourcourses-3 ourcourses-4 "
+    "ourcourses-5 ourcourses-6";
+  margin-top: 60px;
+  padding: 50px 50px;
+  row-gap: 150px;
+  column-gap: 10px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.getitnow {
+  width: 783px;
+  height: 63px;
+  border-radius: 8px;
+}
+
+.weeks-1 {
+  display: flex;
+}
+.weeks-2 {
+  border: solid 1px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  color: #4c4c4d;
+}
+.beginer {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+.learn-1 {
+  width: 620px;
+}
+
+.byjohn {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.weeks-6 {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  color: #4c4c4d;
+  text-align: center;
+}
+.intermediate {
+  border: solid 1px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+.byemily {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.weeks-8 {
+  border: solid 1px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  color: #4c4c4d;
+}
+.intermediate-2 {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+
+.bydavid {
+  margin-left: 230px;
+  margin-top: 20px;
+}
+.weeks-10 {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+
+.beginner {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+.getitnow-12 {
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.bysarah {
+  margin-left: 230px;
+  margin-top: 20px;
+}
+.dive {
+  width: 600px;
+}
+.weeks-11 {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+
+.intermediate-3 {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+}
+.bymichael {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.weeks-14 {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  margin-left: 5px;
+  color: #4c4c4d;
+}
+.advance {
+  border: solid 1px;
+  padding: 10px 30px;
+  margin-top: 5px;
+
+  border-color: rgb(228, 228, 216);
+  border-radius: 8px;
+  color: #4c4c4d;
+}
+
+.byjennifer {
+  margin-left: 220px;
+  margin-top: 20px;
+}
+.ourtest {
+  font-weight: 600px;
+  font-size: 48px;
+
+  height: 72px;
+  margin-left: 80px;
+}
+.ourtest-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 150px;
+}
+.buttonsection-5 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.textsection-5 {
+  width: 1000px;
+  color: #59595a;
+}
+.sarahl {
+  width: 600px;
+  height: 304px;
+  border-radius: 12px;
+  border: 1px grey;
+  grid-area: sarahl;
+  background-color: #dbdbdb;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sarahl-2 {
+  display: flex;
+  margin-top: 40px;
+}
+.sarahl-3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+.sarahl-button {
+  width: 150px;
+  height: 60px;
+  border: solid 1px rgb(242, 240, 240);
+  border-radius: 8px;
+  background-color: #ebebee;
+  font-size: 15px;
+}
+
+.jasonm {
+  width: 600px;
+  height: 304px;
+  border-radius: 12px;
+  border: 1px grey;
+  grid-area: jasonm;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.jasonm-3 {
+  display: flex;
+  margin-top: 40px;
+}
+.jasonm-button {
+  width: 150px;
+  height: 63px;
+  border: solid 1px rgb(242, 240, 240);
+  border-radius: 8px;
+  background-color: #ebebee;
+  margin-left: 200px;
+  font-size: 15px;
+}
+
+.emily {
+  width: 600px;
+  height: 304px;
+  border-radius: 12px;
+  border: 1px grey;
+  grid-area: emily;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f6f6f6;
+}
+.emily-1 {
+  display: flex;
+  margin-top: 40px;
+}
+.emily-button {
+  width: 150px;
+  height: 63px;
+  border: solid 1px rgb(242, 240, 240);
+  border-radius: 8px;
+  background-color: #ebebee;
+  margin-left: 200px;
+  font-size: 15px;
+}
+.michaelk {
+  width: 600px;
+  height: 304px;
+  border-radius: 12px;
+  border: 1px grey;
+  grid-area: michaelk;
+  background-color: #dbdbdb;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.michaelk-1 {
+  display: flex;
+  margin-top: 40px;
+}
+.michaelk-button {
+  width: 150px;
+  height: 63px;
+  border: solid 1px rgb(242, 240, 240);
+  border-radius: 8px;
+  background-color: #ebebee;
+  margin-left: 150px;
+  font-size: 15px;
+}
+
+.page-wrapper-3 {
+  display: grid;
+  grid-template-areas:
+    "sarahl jasonm"
+    "emily michaelk";
+  margin-top: 50px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title-section6 {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.section-6-1 {
+  display: flex;
+  margin-left: 50px;
+}
+.text-section6 {
+  font-size: 15px;
+  color: #59595a;
+  width: 900px;
+}
+
+.button-monthly {
+  background-color: #ff9500;
+  color: #fff;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  margin-left: 90px;
+}
+.button-yearly {
+  background-color: #f6f6f6;
+  color: #4c4c4d;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+.price {
+  background-color: #faf7f7;
+  width: 500px;
+  height: 600px;
+  grid-row: price;
+}
+
+.price-22 {
+  background-color: #faf7f7;
+  width: 500px;
+  height: 600px;
+  grid-row: price-22;
+}
+.price-list {
+  display: flex;
+  display: grid;
+  row-gap: 10px;
+}
+
+.price-1 {
+  display: flex;
+  border: solid 1px grey;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.free-plan {
+  margin-left: 20px;
+  height: 40px;
+  background-color: #fff9f0;
+  width: 450px;
+  border: 1px solid #ffeacc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button-section-6 {
+  margin-top: 40px;
+  padding: 5px 30px;
+  background-color: #ff9500;
+  width: 500px;
+  border-radius: 6px;
+}
+.price-section-6-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title-section6-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.price-2 {
+  display: flex;
+  border: solid 1px rgb(130, 124, 124);
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button-2section-6 {
+  margin-top: 40px;
+  padding: 5px 30px;
+  background-color: #ff9500;
+  width: 500px;
+  border-radius: 6px;
+}
+.section-6-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  grid-template-rows: "price" "price-22";
+}
+
+.pro-plan {
+  margin-left: 20px;
+  height: 40px;
+  background-color: #fff9f0;
+  width: 450px;
+  border: 1px solid #ffeacc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  background-color: #ffd39e;
+  opacity: 99%;
+}
+
+.footer-contact {
+  margin-top: 20px;
+}
+.footer-last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ff9500;
+  height: 40px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-7 {
+  display: flex;
+  gap: 80px;
+  margin-left: 20px;
+}
+.section-7-3 {
+  display: flex;
+  width: 500px;
+}
+
+.section-7-4 {
+  display: flex;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .head {
+    margin: 20px;
+  }
+
+  .header-spans {
+    margin-left: 0;
+  }
+
+  .main-head {
+    margin-top: -40px;
+  }
+
+  .main-img-h1 {
+    margin-top: 150px;
+  }
+
+  .line {
+    margin-top: -60px;
+  }
+
+  .main-h2-p {
+    margin-left: 40px;
+  }
+
+  .explore-curses {
+    margin-left: 40px;
+  }
+
+  .view-pricing {
+    margin-left: 20px;
+  }
+
+  .svg-7 {
+    margin-top: 100px;
+  }
+
+  .section-6-p {
+    width: 600px;
+  }
+
+  .picture-1 {
+    margin-bottom: 20px;
+  }
+
+  .number-1,
+  .number-2,
+  .number-3,
+  .number-4,
+  .number-5,
+  .number-6 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .page-Wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .page-Wrapper {
+    display: grid;
+    grid-template-areas:
+      "number-1 number-2"
+      "number-3 number-4"
+      " number-5 number-6";
+    margin-top: 60px;
+
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-left: 120px;
+
+    margin-right: 120px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .page-wrapper-2 {
+    display: grid;
+    grid-template-areas:
+      "ourcourses-1"
+      "ourcourses-2"
+      "ourcourses-3"
+      "ourcourses-4 "
+      "ourcourses-5"
+      "ourcourses-6";
+    margin-top: 60px;
+    padding: 50px 50px;
+    row-gap: 150px;
+    column-gap: 10px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+
+  .section-4 {
+    margin-left: 60px;
+  }
+
+  .page-wrapper-3 {
+    display: grid;
+    grid-template-areas:
+      "sarahl"
+      "jasonm"
+      "emily"
+      "michaelk";
+    margin-top: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-6-main {
+    display: grid;
+    grid-template-areas:
+      "price"
+      "oprice-22 ";
+  }
+}
